@@ -1,5 +1,6 @@
 # CSE-240-Homework-file-generator
 This script auto generate folders for Wustl CSE 240 homework
+*This script may only work for Fall 2017 CSE 240, if you want to use it for other session, you may need to revise it a little.
 To use this script follow the discription below:
 1. Download the "Homework" folder and "copy file.py" into a same folder 
 2. Run "copy file.py"
