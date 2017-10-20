@@ -1,7 +1,5 @@
 import shutil, os,urllib.request
 a=input('What home work is this?\n')
-# homeworkSource=urllib2.rulopen()
-# homeworkSource.retrive("http://research.engineering.wustl.edu/~bmoseley/CSE240-FA17/HW/hw_"+a+".tex")
 urllib.request.urlretrieve ("http://research.engineering.wustl.edu/~bmoseley/CSE240-FA17/HW/hw_"+a+".tex", "hw_"+a+".tex")
 shutil.copytree(r'Homework',r'Homework '+a)
 i=1
